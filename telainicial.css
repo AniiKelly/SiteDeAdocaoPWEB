@@ -1,0 +1,280 @@
+body {
+    background-color: #ffffff;
+    color: rgb(34, 10, 3);
+    background-size: cover;
+}
+
+/*FONTE DE TEXTO*/
+.poetsen-one-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.containerPrincipal {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #2e2e48;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCentral {
+    display: flex;
+    min-height: 100vh;
+    width: 1200px;
+    background-color: #482e46;
+    flex-direction: column;
+}
+
+.containerTopo {
+    display: flex;
+    background-color: #dbe0de;
+    height: 60px;
+    width: 100%;    
+    justify-content: space-between;
+}
+
+.containerLogo {
+    display: flex;
+    background-color: #47c037;
+    height: 60px;
+    width: 200px;
+}
+
+/* Menu de Opções */
+.containerMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #58499c;
+    height: 60px;
+    width: 600px;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+
+    text-decoration: none;
+    color: #D5E4CF;
+    padding: 12px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+.item-menu:hover {
+    background-color: #302a83;
+    color: white;
+}
+
+.containerSeperacao {
+    display: flex;
+    height: 60px;
+    width: 150px;
+    background-color: #42b3df;
+}
+
+/*Banner de Exibição Inicial */
+.containerBanner {
+    display: flex;
+    background-color: rgb(241, 9, 9);
+    height: 400px;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(SiteJogosBanner.jpg);
+}
+
+/* Caixinhas de perfis animais*/
+.containerDuasCaixinhas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 330px;
+    width: 100%;
+    background-color: #ddb01c;
+}
+
+.caixinhaFotoAnimal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    
+    border: transparent;
+    background-color: transparent;
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(32, 32, 32);
+}
+
+/* Botão gigante do meio */
+.containerBotaoEnorme {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #58499c;
+    height: 60px;
+    width: 1200px;
+}
+
+.item-botaoEnorme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+
+    text-decoration: none;
+    color: #D5E4CF;
+    padding: 12px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+.item-botaoEnorme:hover {
+    color: #ddb01c;
+    font-size: 200;
+}
+
+.containerEspacamentoBotao {
+    display: flex;
+    background-color: #2e2e48;
+    height: 15px;
+    width: 1200px;
+}
+
+/*RODAPÉ*/
+.containerEspacoRodape {
+    display: flex;
+    height: 50px;
+    width: 1200px;
+    background-color: #ff8400;
+}
+
+.containerRodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 130px;
+    width: 1200px;
+    background-color: #ff8400;
+}
+
+.rodape {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    color: #D5E4CF;
+    gap: 5px;
+}
+
+.rodapeA {
+    text-decoration: none;
+    color: #D5E4CF;
+}
+
+/*
+.corpo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: #9dcc9b;
+}
+
+.caixinhasTopicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 350px;
+    width: 450px;
+    background-color: #499C70;
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(32, 32, 32);
+}
+
+.item-caixinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    border-radius: 15px;
+}
+
+.textocaixinha {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: justify;
+
+    text-decoration: none;
+    color: #D5E4CF;
+
+    font-size: 15px;
+
+    border-radius: 15px;
+}
+
+.titulocaixinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 50px;
+    width: 100%;
+    color: #D5E4CF;
+
+    border-radius: 15px;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.destaques {
+    display: flex;
+}
+
+.caixinhafoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 500px;
+    width: 450px;
+    background-color: #499C70;
+
+    border: transparent;
+    background-color: transparent;
+}
+
+.caixinha-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
