@@ -73,23 +73,21 @@ body {
     color: white;
 }
 
-.containerSeperacao {
+/*.containerSeperacao {
     display: flex;
     height: 60px;
-    width: 150px;
+    width: 130px;
     background-color: #42b3df;
-}
+}*/
 
 /*Banner de Exibição Inicial */
 .containerBanner {
     display: flex;
-    background-color: rgb(241, 9, 9);
-    height: 400px;
+    height: 300px;
     width: 100%;
     align-items: flex-end;
     flex-direction: column;
     justify-content: center;
-    background-image: url(SiteJogosBanner.jpg);
 }
 
 /* Caixinhas de perfis animais*/
