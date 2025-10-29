@@ -4,12 +4,6 @@ body {
     background-size: cover;
 }
 
-/*FONTE DE TEXTO*/
-.poetsen-one-regular {
-  font-weight: 400;
-  font-style: normal;
-}
-
 .containerPrincipal {
     display: flex;
     min-height: 100vh;
@@ -84,10 +78,10 @@ body {
 .containerBanner {
     display: flex;
     background-color: rgb(241, 9, 9);
-    height: 250px;
+    height: 400px;
     width: 100%;
     align-items: flex-end;
     flex-direction: column;
     justify-content: center;
-    background-image: url(quemsomosimg.jpg);
+    background-image: url(/IMAGENS/BannerQuemSomos.png);
 }
